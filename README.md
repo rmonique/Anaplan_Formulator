@@ -1,4 +1,4 @@
-# Anaplan_Formulator
+# Anaplan Formulator
 Git Repository for all things Anaplan Formulator Google Chrome extension
 
 ## Road Map
@@ -8,11 +8,11 @@ Git Repository for all things Anaplan Formulator Google Chrome extension
 * Switch to slide bar on and off
 	- Either always on or always off
 	- Depreciate click to activate
-* Auto Compelte
+* Auto Complete
 	- Close Open (
 	- Close Open [
 	- THEN after IF
-	- "" after .
+	- "" after.
 * Error Debugger
 	- Standard formatting and error catching for each [Anaplan function](https://help.anaplan.com/anapedia/Content/Calculation_Functions/CF_All_Functions.htm)
 
@@ -46,4 +46,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* 
+*
