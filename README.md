@@ -34,7 +34,7 @@ Enable Developer Mode by clicking the toggle switch next to Developer mode.
 Click the LOAD UNPACKED button and select the extension directory.
 ```
 
-See [the chrome developer guide](https://developer.chrome.com/extensions/getstarted) for more info
+See the [chrome developer guide](https://developer.chrome.com/extensions/getstarted) for more info.
 
 ## Authors
 
