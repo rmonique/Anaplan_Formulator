@@ -11,7 +11,6 @@ var boxSize = 0;
 var finalFormula = "";
 
 var formula = document.getElementsByClassName('formulaEditorText');
-var width = document.getElementById('dijit__Container_0').offsetWidth -93;
 
 if ( formula.length > 0) {
     var formulaToEdit =  formula[0].value;
@@ -74,11 +73,11 @@ if ( formula.length > 0) {
     var boxSize = longestLength * 7 + "px";
     var boxOffset = (longestLength * 7) + 9 + "px";
 
-    document.getElementById('dijit__Container_0').style.width = boxSize;
-    document.getElementById('dijit__Container_0_splitter').style.left = boxSize;
-    document.getElementById('dijit_layout_BorderContainer_1').style.left = boxOffset;
-    //document.getElementById('dijit__Container_0_splitter').click();
-    eventFire(document.getElementById('dijit__Container_0_splitter'), 'click');
+    document.getElementsByClassName('formulaEditor dijitBorderContainerNoGutter-child dijitBorderContainerNoGutter-formulaEditor dijitBorderContainerNoGutterPane dijitAlignLeft')[0].style.width = boxSize;    
+    document.getElementsByClassName('dijitBorderContainerNoGutter dijitContainer dijitBorderContainerNoGutter-child dijitBorderContainerNoGutter-dijitBorderContainerNoGutter dijitBorderContainerNoGutterPane dijitAlignCenter dijitLayoutContainer')[1].style.left = boxOffset;    
+    document.getElementsByClassName('dijitSplitter dijitSplitterV dijitAlignLeft')[2].style.left = boxSize;
+    document.getElementById('dijit__Container_0_splitter').click();
+   // eventFire(document.getElementsByClassName('dijitSplitter dijitSplitterV dijitAlignLeft')[2], 'click');
     document.getElementsByClassName('formulaEditorText')[0].value = finalFormula;
 }
 
