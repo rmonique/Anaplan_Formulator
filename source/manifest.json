@@ -1,8 +1,12 @@
 {
   "name": "Anaplan Formulator",
-  "version": "1.2",
+  "version": "1.2.1",
   "manifest_version" : 2,
-  "description": "Adds a return after each IF, THEN,or ELSE in an Anaplan formula",
+  "description": "An enhanced anaplan formula writing experience.",
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": false
+  },
   "background" : {
     "scripts" : ["background.js"]
   },
