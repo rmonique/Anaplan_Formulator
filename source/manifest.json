@@ -1,17 +1,14 @@
 {
   "name": "Anaplan Formulator",
-  "version": "1.2.1",
-  "manifest_version" : 2,
-  "description": "An enhanced anaplan formula writing experience.",
-  "options_ui": {
-    "page": "options.html",
-    "open_in_tab": false
+  "version": "1.3.1",
+  "manifest_version" : 3,
+  "description": "Adds a return after each IF, THEN,or ELSE in an Anaplan formula",
+  "action": {
+    "default_icon": "logo.png",
+	"default_title": "Click to Format Formula"
   },
+  "permissions": ["activeTab", "scripting"],
   "background" : {
-    "scripts" : ["background.js"]
-  },
-  "browser_action": {
-    "default_icon": "logo.png"
-  },
-  "permissions": ["activeTab"]
+    "service_worker" : "background.js"
+  }
 }
